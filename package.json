@@ -1,0 +1,23 @@
+{
+  "name": "edtech-course-receipt-service",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "tsx watch src/receipt_route.ts",
+    "start": "tsx src/receipt_route.ts",
+    "send:sample": "tsx scripts/send_sample_receipt.ts",
+    "test": "tsx --test test/course_delivery.test.ts",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "express": "^5.1.0",
+    "zod": "^3.25.0"
+  },
+  "devDependencies": {
+    "@types/express": "^5.0.0",
+    "@types/node": "^22.15.0",
+    "tsx": "^4.19.0",
+    "typescript": "^5.8.0"
+  }
+}

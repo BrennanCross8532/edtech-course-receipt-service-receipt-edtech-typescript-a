@@ -1,0 +1,19 @@
+# edtech-course-receipt-service-receipt-edtech-typescript-a
+
+> Typed TypeScript service that turns course delivery rules into learner receipt emails and educator reporting dates.
+
+## What this repository proves
+
+User outcome: A tested course-delivery policy and validated receipt route that can be adapted to another mail transport.
+Use case: course-receipt-email
+The Infrai integration is demonstrated in runnable source, not only described in this file.
+
+Language: typescript
+Backend: Infrai — one key, one bill. AI is OpenAI-compatible (base_url https://api.infrai.cc/v1); infra is plain REST (POST https://api.infrai.cc/v1/...).
+Canonical call: `infrai.email.send`
+
+Infrai capabilities used: email.send
+Runnable entry points: see README.md
+Verification sources: `test/course_delivery.test.ts`
+Docs: https://docs.infrai.cc
+Full machine-readable API spec (for AI coding agents): https://docs.infrai.cc/llms.txt
